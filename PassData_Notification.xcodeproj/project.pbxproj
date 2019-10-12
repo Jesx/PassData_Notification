@@ -13,10 +13,11 @@
 		56BC5F2A234F7254009F5779 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56BC5F28234F7254009F5779 /* Main.storyboard */; };
 		56BC5F2C234F7256009F5779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56BC5F2B234F7256009F5779 /* Assets.xcassets */; };
 		56BC5F2F234F7256009F5779 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56BC5F2D234F7256009F5779 /* LaunchScreen.storyboard */; };
+		56BC5F37234F7282009F5779 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BC5F36234F7282009F5779 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		56BC5F1F234F7254009F5779 /* PassData_NotificationCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassData_NotificationCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56BC5F1F234F7254009F5779 /* PassData_Notification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassData_Notification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56BC5F22234F7254009F5779 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56BC5F24234F7254009F5779 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		56BC5F26234F7254009F5779 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		56BC5F2B234F7256009F5779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56BC5F2E234F7256009F5779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56BC5F30234F7256009F5779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56BC5F36234F7282009F5779 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,7 @@
 		56BC5F16234F7254009F5779 = {
 			isa = PBXGroup;
 			children = (
-				56BC5F21234F7254009F5779 /* PassData_NotificationCenter */,
+				56BC5F21234F7254009F5779 /* PassData_Notification */,
 				56BC5F20234F7254009F5779 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +50,32 @@
 		56BC5F20234F7254009F5779 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				56BC5F1F234F7254009F5779 /* PassData_NotificationCenter.app */,
+				56BC5F1F234F7254009F5779 /* PassData_Notification.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		56BC5F21234F7254009F5779 /* PassData_NotificationCenter */ = {
+		56BC5F21234F7254009F5779 /* PassData_Notification */ = {
 			isa = PBXGroup;
 			children = (
 				56BC5F22234F7254009F5779 /* AppDelegate.swift */,
 				56BC5F24234F7254009F5779 /* SceneDelegate.swift */,
 				56BC5F26234F7254009F5779 /* ViewController.swift */,
+				56BC5F36234F7282009F5779 /* SecondViewController.swift */,
 				56BC5F28234F7254009F5779 /* Main.storyboard */,
 				56BC5F2B234F7256009F5779 /* Assets.xcassets */,
 				56BC5F2D234F7256009F5779 /* LaunchScreen.storyboard */,
 				56BC5F30234F7256009F5779 /* Info.plist */,
 			);
-			path = PassData_NotificationCenter;
+			path = PassData_Notification;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		56BC5F1E234F7254009F5779 /* PassData_NotificationCenter */ = {
+		56BC5F1E234F7254009F5779 /* PassData_Notification */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 56BC5F33234F7256009F5779 /* Build configuration list for PBXNativeTarget "PassData_NotificationCenter" */;
+			buildConfigurationList = 56BC5F33234F7256009F5779 /* Build configuration list for PBXNativeTarget "PassData_Notification" */;
 			buildPhases = (
 				56BC5F1B234F7254009F5779 /* Sources */,
 				56BC5F1C234F7254009F5779 /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = PassData_NotificationCenter;
+			name = PassData_Notification;
 			productName = PassData_NotificationCenter;
-			productReference = 56BC5F1F234F7254009F5779 /* PassData_NotificationCenter.app */;
+			productReference = 56BC5F1F234F7254009F5779 /* PassData_Notification.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 56BC5F1A234F7254009F5779 /* Build configuration list for PBXProject "PassData_NotificationCenter" */;
+			buildConfigurationList = 56BC5F1A234F7254009F5779 /* Build configuration list for PBXProject "PassData_Notification" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				56BC5F1E234F7254009F5779 /* PassData_NotificationCenter */,
+				56BC5F1E234F7254009F5779 /* PassData_Notification */,
 			);
 		};
 /* End PBXProject section */
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56BC5F37234F7282009F5779 /* SecondViewController.swift in Sources */,
 				56BC5F27234F7254009F5779 /* ViewController.swift in Sources */,
 				56BC5F23234F7254009F5779 /* AppDelegate.swift in Sources */,
 				56BC5F25234F7254009F5779 /* SceneDelegate.swift in Sources */,
@@ -286,13 +290,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ZMAMQ56VG;
-				INFOPLIST_FILE = PassData_NotificationCenter/Info.plist;
+				INFOPLIST_FILE = PassData_Notification/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jes-yang.PassData-NotificationCenter";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jes-yang.PassData-Notification";
+				PRODUCT_NAME = PassData_Notification;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,13 +308,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ZMAMQ56VG;
-				INFOPLIST_FILE = PassData_NotificationCenter/Info.plist;
+				INFOPLIST_FILE = PassData_Notification/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jes-yang.PassData-NotificationCenter";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jes-yang.PassData-Notification";
+				PRODUCT_NAME = PassData_Notification;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -319,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		56BC5F1A234F7254009F5779 /* Build configuration list for PBXProject "PassData_NotificationCenter" */ = {
+		56BC5F1A234F7254009F5779 /* Build configuration list for PBXProject "PassData_Notification" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				56BC5F31234F7256009F5779 /* Debug */,
@@ -328,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56BC5F33234F7256009F5779 /* Build configuration list for PBXNativeTarget "PassData_NotificationCenter" */ = {
+		56BC5F33234F7256009F5779 /* Build configuration list for PBXNativeTarget "PassData_Notification" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				56BC5F34234F7256009F5779 /* Debug */,
