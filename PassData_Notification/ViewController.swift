@@ -29,6 +29,7 @@ class ViewController: UIViewController {
         createObservers()
     }
 
+    
     func createObservers() {
         // Red
         NotificationCenter.default.addObserver(self, selector: #selector(updateTextLabel(notification:)), name: red, object: nil)
